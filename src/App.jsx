@@ -56,9 +56,9 @@ function deriveGameBoard(gameTurns) {
     const { row, col } = square;
 
     gameBoard[row][col] = player;
-
-    return gameBoard;
   }
+
+  return gameBoard;
 }
 
 function App() {
